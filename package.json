@@ -1,0 +1,16 @@
+{
+  "name": "codechat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bismark Yamoah",
+  "license": "ISC",
+  "dependencies": {
+    "noscdb": "^0.1.4",
+    "socket.io": "^4.4.1"
+  }
+}
