@@ -1,3 +1,9 @@
+/*
+MIT License
+
+Copyright (c) 2022 Bismark Yamoah 
+See lincense copy at https:github.com/KBismark/CodeParser
+*/
 function Parser(themenum){
     function Elments(){
         var d = document;
