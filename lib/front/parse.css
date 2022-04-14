@@ -1,0 +1,143 @@
+ .mdkeywordi{
+    color: #1168cc;
+}
+.mdkeywordii{
+    color: #ac4bc4;
+}
+.mdkeywordiii{
+    color: #85d6eb;
+}
+.mdkeywordiv{
+    color: rgb(250, 232, 131)
+}
+.mdstrings{
+    color: rgb(179, 66, 37);
+}
+.mdnumbers{
+    color: rgb(143, 226, 185);
+}
+.mdkeywordiv .mdnumbers{
+    color: rgb(238, 225, 151);
+}
+.mdcomments{
+    color: rgb(85, 179, 85);font-style: italic;
+}
+.mdspchars{
+    color: rgb(218, 209, 209);
+}
+.markdown{
+    font-family: Consolas, 'Source Code Pro', Menlo, Monaco, 'Andale Mono', 'Ubuntu Mono',monospace,Arial, Helvetica, sans-serif;
+    /*color: rgb(218, 209, 209);monospace, sans-serif;*/
+    font-size: 16px;
+    padding: 0px 10px 20px 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    line-height: 2;
+    position: relative;
+    margin: 0px 0% 30px 0%;
+    overflow: hidden;
+    max-height: 500px;
+    font-weight: 500;
+    -o-tab-size: 2;
+    tab-size: 2;
+    -moz-hyphens: none;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    
+    /*color: #85d6eb; SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono #1b1f230d
+    border-left: 3px solid rgb(212, 211, 211);*/
+}
+.markdown-expanded{
+    font-family: Consolas, 'Source Code Pro', Menlo, Monaco, 'Andale Mono', 'Ubuntu Mono',monospace,Arial, Helvetica, sans-serif;
+    /*color: rgb(218, 209, 209);monospace, sans-serif;*/
+    font-size: 16px;
+    padding: 0px 10px 20px 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    line-height: 2;
+    position: relative;
+    margin: 0px 0% 30px 0%;
+    overflow: auto;
+    height: 100%;
+    font-weight: 500;
+    -o-tab-size: 2;
+    tab-size: 2;
+    -moz-hyphens: none;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    
+    /*color: #85d6eb; SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono #1b1f230d
+    border-left: 3px solid rgb(212, 211, 211);*/
+}
+.mdcode-inline{
+    line-height: 2em;
+    overflow-x: scroll;
+}
+.markdown-inline{
+    font-family: ui-monospace,monospace,serif;
+    font-size: 14px;
+    padding: .6em .5em .6em .5em;
+    background-color: rgba(27, 31, 35, 0.051);
+    margin: 0px 5px 0px 2px;
+    border-radius: 4px;
+    overflow-x: scroll;
+}
+.mdcopy{
+    text-align: right;padding-right: 3px;
+    margin: 0px 0% -10px 0%;
+    background-color: #03111b;padding: 10px 7px 17px 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.mdcopybut{
+    background-color: #dbdddd;
+    paddin: 3px 7px 5px 7px;colo: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.mdcopybut:hover {
+    background-color: #afb3b3e1;
+}
+.mdcopytip{
+    visibilit: hidden;
+    width: 100px;
+    background-color: rgba(85, 85, 85, 0.993);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 4px 3px 4px 3px;
+    position: absolute;
+    z-index: 1;
+    lef: 50%;
+    margin-left: -195px;
+    opacity: 0;
+    -o-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+.mdtip{
+    position: relative;
+    display: inline-block;
+}
+.mdcopybu:hover .mdcopytip{
+    visibility: visible;
+    opacity: 1;
+}
+.mdcodetype{
+    background-color: #dbdddd;
+    border: 1px solid #dbdddd;
+    padding: 3px 7px 2px 7px;
+    margin-to: -30px;margin-right: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.expand-code{
+    position: fixed;top: 0;left: 0;right: 0;bottom: 0;
+    margin: 0px;z-index: 2;
+}
