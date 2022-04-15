@@ -2,7 +2,7 @@ const http = require("http"),
 fs = require("fs"),
 //USING NOSCDB DATABASE... Visit: https://github.com/KBismark/noscdb
   
-ndb = require("noscdb"),
+ndb = require("noscdb"), {date,roundUpDate}=ndb.noscDate,
 // USING SOCKET.IO.... Visit: https://socket.io
 { Server } = require("socket.io"),url = require("url");
 ndb.override_fs=fs;
@@ -103,7 +103,7 @@ function start(){
 
 
 
-    const io = new Server(server),{date,roundDownDate}=ndb.noscDate;
+    const io = new Server(server);
     io.on("connection",(socket)=>{
         // New user connected
         function getdata(data){
@@ -139,7 +139,7 @@ function start(){
                     });
                     if(typeof (mainData.isInAlready.time)!=="undefined"){
                         // load messages from when user left
-                        var continuedate = roundDownDate(mainData.isInAlready.time);
+                        var continuedate = roundUpDate(mainData.isInAlready.time);
                         read.startFrom(
                             continuedate.month,
                             continuedate.day,
