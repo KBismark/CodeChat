@@ -125,7 +125,7 @@ function start(){
                             errored:!0
                         });
                     });
-                    read.date(2022,{from:1,to:12},{from:1,to:31})
+                    read.date((new Date()).getFullYear(),{from:1,to:12},{from:1,to:31})
                     .FIFO().withTime().ondata((dataArr)=>{
                         if(dataArr){
                             socket.emit("evil",{
