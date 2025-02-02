@@ -5,3 +5,4 @@ A simple web application that allows you to create groups, chat with friends and
 ```bash
 npm start
 ```
+Visit [http://localhost:8798](http://localhost:8798) to start chatting!
